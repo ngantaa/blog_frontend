@@ -1,7 +1,7 @@
 form {
     display: flex;
     flex-direction: column;
-    border: 1px solid #a0e;
+    border: 1px solid #50f;
     padding: .5rem;
     margin: .7rem;
     border-radius: .3rem;
@@ -24,7 +24,7 @@ form input {
 }
 
 form button {
-    background-color: #a0e;
+    background-color: #50f;
     color: #fff;
     border-radius: .3rem;
     width: 50%;
@@ -34,8 +34,8 @@ form button {
 
 form button:hover {
     background-color: #fff;
-    color: #a0e;
-    border: 1px solid #a0e;
+    color: #50f;
+    border: 1px solid #50f;
     transition: .2s linear;
 }
 
@@ -54,13 +54,13 @@ label {
     width: 50%;
     margin: auto;
     text-align: center;
-    color: #a0e;
+    color: #50f;
     border-radius: .3rem;
-    border: 1px solid #a0e;
+    border: 1px solid #50f;
 }
 
 label:hover {
-    background-color: #a0e;
+    background-color: #50f;
     border: 1px solid #fff;
     color: #fff;
     cursor: pointer;

@@ -13,14 +13,14 @@ ul {
 }
 
 .threadcard:hover {
-    color: #a0e;
-    border: 1px solid #a0e;
+    color: #50f;
+    border: 1px solid #50f;
     background-color: #eee;
     transition: .2s linear;
 }
 
 .threadcard:hover .header {
-    background-color: #a0e;
+    background-color: #50f;
     color: #fff;
     transition: .2s linear;
 }

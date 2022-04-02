@@ -1,7 +1,7 @@
 nav {
     width: 100%;
     padding: 1.5em;
-    background-color: #a0e;
+    background-color: #50f;
     margin: 0;
 }
 
@@ -24,8 +24,8 @@ nav ul a {
 }
 
 nav ul a:hover {
-    color: #a0e;
+    color: #50f;
     background-color: #fff;
-    border: 1px solid #a0e;
+    border: 1px solid #50f;
     transition: .2s linear;
 }

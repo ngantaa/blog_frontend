@@ -36,7 +36,7 @@ const Profile = () => {
     return(
         <>
         <div className="wrapper">
-            <img id="profilePicture" src={"http://localhost:8080/api/image/" + localStorage.getItem("userId")} />
+            <img id="profilePicture" src={"https://polar-bayou-46017.herokuapp.com/api/image/" + localStorage.getItem("userId")} />
             <p className="text-align-right">
                 email : <br />
                 full name : <br />

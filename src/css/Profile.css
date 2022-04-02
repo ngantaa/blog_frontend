@@ -18,10 +18,10 @@
 }
 
 a {
-    color: #a0e;
+    color: #50f;
     text-decoration: none;
     display: block;
-    border: 1px solid #a0e;
+    border: 1px solid #50f;
     padding: .2rem;
     border-radius: .2rem;
     margin: .2rem;
@@ -29,7 +29,7 @@ a {
 
 a:hover {
     color: #fff;
-    background-color: #a0e;
+    background-color: #50f;
     border: 1px solid #fff;
     transition: .2s linear
 }
