@@ -39,12 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  {
-  "buildpacks": [
-    {
-      "url": "https://github.com/mars/create-react-app-buildpack"
-    }
-  ]
   } 
 }
