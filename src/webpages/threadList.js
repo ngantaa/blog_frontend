@@ -5,7 +5,7 @@ const ThreadList = () => {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [threads, setThreads] = useState([]);
-    let url = "http://localhost:8080/api/threads";
+    let url = "https://polar-bayou-46017.herokuapp.com/api/threads";
     useEffect(() => {
         axios.get(url,
             {

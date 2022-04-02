@@ -1,6 +1,63 @@
-#ban {
-    width: 100%;
-    min-height: 90px;
-    background: url("../assets/bgimg.png") no-repeat;
-    background-size: cover;
+#ban1 {
+    background-color: #50f;
+}
+
+#ban2 {
+    background-color: #50fe;
+}
+
+#ban3 {
+    background-color: #50fd;
+}
+
+#ban4 {
+    background-color: #50fc;
+}
+
+#ban5 {
+    background-color: #50fb;
+}
+
+#ban6 {
+    background-color: #50fa;
+}
+
+#ban7 {
+    background-color: #50f9;
+}
+
+#ban8 {
+    background-color: #50f8;
+}
+
+#ban9 {
+    background-color: #50f7;
+}
+
+#ban10 {
+    background-color: #50f6;
+}
+
+#ban11 {
+    background-color: #50f5;
+}
+
+#ban12 {
+    background-color: #50f4;
+}
+
+#ban13 {
+    background-color: #50f3;
+}
+
+#ban14 {
+    background-color: #50f2;
+}
+
+#ban15 {
+    background-color: #50f1;
+}
+
+#ban1, #ban2, #ban3, #ban4, #ban5, #ban6, #ban7, #ban8, #ban9, #ban10, #ban11, #ban12, #ban13, #ban14, #ban15 {
+    min-height: 3px;
 }

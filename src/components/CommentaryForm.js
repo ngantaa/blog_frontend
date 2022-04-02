@@ -10,7 +10,7 @@ const CommentaryForm = () => {
 
     function handleSubmission(event) {
         event.preventDefault();
-        Axios.post(("http://localhost:8080/api/thread/" + id), {
+        Axios.post(("https://polar-bayou-46017.herokuapp.com/thread/" + id), {
             commentaryContent: data.commentaryContent
         },
         {headers: {

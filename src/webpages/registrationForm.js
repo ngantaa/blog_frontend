@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Axios from 'axios';
 
 function RegistrationForm() {
-    const url = "http://localhost:8080/api/signup";
+    const url = "https://polar-bayou-46017.herokuapp.com/api/signup";
     const [data, setData] = useState({
         userName: "",
         firstName: "",

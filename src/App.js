@@ -4,7 +4,7 @@ import { AuthContext } from './AuthContext';
 import axios from 'axios';
 
 function App() {
-  axios.get("http://localhost:8080/api/authenticated",
+  axios.get("https://polar-bayou-46017.herokuapp.com/api/authenticated",
   {
       headers: {
           "Authorization": "Bearer " + localStorage.getItem("token")
@@ -24,7 +24,7 @@ function App() {
 const [loggedIn, setLoggedIn] = useState(false)
 
     async function getLoginStatus () {
-      await axios.get("http://localhost:8080/api/users",
+      await axios.get("https://polar-bayou-46017.herokuapp.com/api/users",
       {headers: {"Authorization": 'Bearer ' + localStorage.getItem("token")}}
       ).then(response => setLoggedIn(true)).catch(error => setLoggedIn(false));
     }

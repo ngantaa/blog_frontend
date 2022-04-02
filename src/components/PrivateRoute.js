@@ -6,7 +6,7 @@ const PrivateRoute = () => {
   const [loggedIn, setLoggedIn] = useState();
 
   async function getLoginStatus () {
-    await axios.get("http://localhost:8080/api/users",
+    await axios.get("https://polar-bayou-46017.herokuapp.com/api/users",
     {headers: {"Authorization": 'Bearer ' + localStorage.getItem("token")}}
     ).then(response => setLoggedIn(true)).catch(error => setLoggedIn(false));
   }

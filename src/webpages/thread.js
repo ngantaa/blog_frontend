@@ -11,7 +11,7 @@ const Thread = () => {
     const [commentaries, setCommentaries] = useState([]);
 
     const deleteCommentary = (id) => {
-        axios.delete(("http://localhost:8080/api/commentary/" + id),
+        axios.delete(("https://polar-bayou-46017.herokuapp.com/api/commentary/" + id),
             {
                 headers: {"Authorization": "Bearer " + localStorage.getItem("token")}
             }  
@@ -22,7 +22,7 @@ const Thread = () => {
     async function loadData() {
 
         await axios.get(
-            ("http://localhost:8080/api/thread/" + id),
+            ("https://polar-bayou-46017.herokuapp.com/api/thread/" + id),
             {
                 headers: {
                     "Authorization": "Bearer " + localStorage.getItem("token")
@@ -38,7 +38,7 @@ const Thread = () => {
             }
         );
         await axios.get(
-            ("http://localhost:8080/api/thread/" + id + "/commentaries"),
+            ("https://polar-bayou-46017.herokuapp.com/api/thread/" + id + "/commentaries"),
             {
                 headers: {
                     "Authorization": "Bearer " + localStorage.getItem("token")

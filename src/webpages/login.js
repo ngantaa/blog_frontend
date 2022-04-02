@@ -3,7 +3,7 @@ import axios from 'axios';
 
 
 function LoginForm(props) {
-    const url = "http://127.0.0.1:8080/api/authenticate";
+    const url = "https://polar-bayou-46017.herokuapp.com/api/authenticate";
     const [data, setData] = useState({
         username: "",
         password: "",

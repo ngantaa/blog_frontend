@@ -8,7 +8,7 @@ function NewThreadForm() {
     });
     function handleSubmission(event) {
         event.preventDefault();
-        Axios.post("http://localhost:8080/api/thread/new", {
+        Axios.post("https://polar-bayou-46017.herokuapp.com/api/thread/new", {
             threadName: data.threadName,
             content: data.content,
         },

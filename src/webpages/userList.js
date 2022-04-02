@@ -7,7 +7,7 @@ const UserList = () => {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:8080/api/users/",
+        axios.get("https://polar-bayou-46017.herokuapp.com/api/users/",
             {
                 headers: {
                     "Authorization": 'Bearer ' + localStorage.getItem("token")
@@ -35,7 +35,7 @@ if (error) {
             <ul className="list-unstyled">
                 {users.map(user => (
                 <li className="my-2" key={user.userId}>
-                    <img className="m-2" width="45" src={"http://localhost:8080/api/image/" + user.userId} />
+                    <img className="m-2" width="45" src={"https://polar-bayou-46017.herokuapp.com/api/image/" + user.userId} />
                     {user.username}
                 </li>
                 ))}

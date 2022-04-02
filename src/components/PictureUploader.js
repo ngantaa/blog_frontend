@@ -11,7 +11,7 @@ function handleChange(event) {
 
   function handleSubmit(event) {
     event.preventDefault()
-    const url = 'http://localhost:8080/api/user/' + localStorage.getItem("userId") + '/picture';
+    const url = 'https://polar-bayou-46017.herokuapp.com/api/user/' + localStorage.getItem("userId") + '/picture';
     const formData = new FormData();
     formData.append('image', file);
     const config = {

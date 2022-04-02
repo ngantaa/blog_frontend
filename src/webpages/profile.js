@@ -8,7 +8,7 @@ const Profile = () => {
     const [user, setUser] = useState([])
 
     useEffect(() => {
-        axios.get("http://localhost:8080/api/authenticated",
+        axios.get("https://polar-bayou-46017.herokuapp.com/api/authenticated",
         {
             headers: {
                 "Authorization": "Bearer " + localStorage.getItem("token")

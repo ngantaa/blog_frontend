@@ -9,7 +9,7 @@ function ProfileSettingForm() {
 
     const deleteUser = () => {
         if (window.confirm("This action is irreversible")) {
-            axios.delete(("http://localhost:8080/api/user/" + localStorage.getItem("userId")),
+            axios.delete(("https://polar-bayou-46017.herokuapp.com/api/user/" + localStorage.getItem("userId")),
                 {
                     headers: {"Authorization": "Bearer " + localStorage.getItem("token")}
                 }  
@@ -21,7 +21,7 @@ function ProfileSettingForm() {
 
     function handleSubmission(event) {
         event.preventDefault();
-        axios.patch(("http://localhost:8080/api/user/" + localStorage.getItem("userId")), {
+        axios.patch(("https://polar-bayou-46017.herokuapp.com/api/user/" + localStorage.getItem("userId")), {
             userName: data.userName,
             firstName: data.firstName,
             lastName: data.lastName,
@@ -45,7 +45,7 @@ function ProfileSettingForm() {
     }
 
     useEffect(() => {
-        axios.get("http://localhost:8080/api/authenticated",
+        axios.get("https://polar-bayou-46017.herokuapp.com/api/authenticated",
         {
             headers: {
                 "Authorization": "Bearer " + localStorage.getItem("token")

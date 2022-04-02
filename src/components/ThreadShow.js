@@ -4,7 +4,7 @@ import axios from "axios"
 const ThreadShow = (props) => {
 
     const deleteThread = (id) => {
-        axios.delete(("http://localhost:8080/api/thread/" + id),
+        axios.delete(("https://polar-bayou-46017.herokuapp.com/api/thread/" + id),
             {
                 headers: {"Authorization": "Bearer " + localStorage.getItem("token")}
             }  
