@@ -19,7 +19,7 @@ function LoginForm(props) {
                response => {
                    localStorage.setItem("token", response.data);
                    console.log(response.data);
-                   window.location.replace("/");
+                   window.location.replace("https://cryptic-everglades-41257.herokuapp.com/");
                 }
            )
            .catch(error =>{

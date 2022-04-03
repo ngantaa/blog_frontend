@@ -17,7 +17,7 @@ function NewThreadForm() {
         }})
         .then(res => {
             console.log(res.data);
-            window.location.replace("http://localhost:3000/")
+            window.location.replace("https://cryptic-everglades-41257.herokuapp.com/")
         }
         )
     }

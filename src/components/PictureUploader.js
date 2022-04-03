@@ -21,7 +21,7 @@ function handleChange(event) {
       },
     };
     axios.post(url, formData, config).then((response) => {
-      window.location.replace("http://localhost:3000/profile");
+      window.location.replace("https://cryptic-everglades-41257.herokuapp.com/profile");
     });
   }
 

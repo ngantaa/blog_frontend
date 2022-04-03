@@ -29,7 +29,7 @@ function NavBar(props) {
                     </ul>
                     </nav>
             )
-        } else if(!loggedIn && window.location.href == "http://localhost:3000/login") {
+        } else if(!loggedIn && window.location.href == "https://cryptic-everglades-41257.herokuapp.com/login") {
             return(
                 <nav>
                     <ul>
@@ -39,7 +39,7 @@ function NavBar(props) {
                     </ul>
                 </nav>
             )
-        } else if(!loggedIn && window.location.href == "http://localhost:3000/signup") {
+        } else if(!loggedIn && window.location.href == "https://cryptic-everglades-41257.herokuapp.com/signup") {
             return(
                 <nav>
                     <ul>

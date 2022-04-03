@@ -15,7 +15,7 @@ function ProfileSettingForm() {
                 }  
             )
             localStorage.clear();
-            window.location.replace("http://localhost:3000/signup");
+            window.location.replace("https://cryptic-everglades-41257.herokuapp.com/signup");
         }
     }
 
@@ -34,7 +34,7 @@ function ProfileSettingForm() {
         })
         .then(res => {
             console.log(res.data);
-            window.location.replace("http://localhost:3000/profile")
+            window.location.replace("https://cryptic-everglades-41257.herokuapp.com/profile")
         }
         )
     }

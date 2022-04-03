@@ -9,7 +9,7 @@ const ThreadShow = (props) => {
                 headers: {"Authorization": "Bearer " + localStorage.getItem("token")}
             }  
         )
-        .then(response => window.location.replace("http://localhost:3000/"))
+        .then(response => window.location.replace("https://cryptic-everglades-41257.herokuapp.com/"))
     }
 
 return(
