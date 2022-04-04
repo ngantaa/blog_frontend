@@ -33,13 +33,15 @@ function LoginForm(props) {
         setData(newData);
     }
     return (
-        <div className="w-25">
-            <form className="d-flex flex-column" onSubmit={(event) => login(event)}>
-                <input className="m-1" id="username" onChange={(event) => handleChange(event)} value={data.username} placeholder='username' type='text'></input>
-                <input className="m-1" id="password" onChange={(event) => handleChange(event)} value={data.password} placeholder='password' type='password'></input>
-                <button className="btn btn-primary">Submit</button>
+            <form onSubmit={(event) => login(event)}>
+                <div>
+                    username : <input className="m-1" id="username" onChange={(event) => handleChange(event)} value={data.username} placeholder='username' type='text'></input>
+                </div>
+                <div>
+                    password : <input className="m-1" id="password" onChange={(event) => handleChange(event)} value={data.password} placeholder='password' type='password'></input>
+                </div>
+                <button>Submit</button>
             </form>
-        </div>
     )
 }
 

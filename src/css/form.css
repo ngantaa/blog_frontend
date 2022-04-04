@@ -10,12 +10,13 @@ form {
 form div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: .2rem 0;
 }
 
 form input {
     margin: .2rem;
-    width: 70%;
+    width: 65%;
 }
 
 .newThreadTitle {
